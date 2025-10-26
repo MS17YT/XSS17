@@ -1,4 +1,4 @@
-# MS17 — XSS Scanner Ultimate (Python 2)
+# MS17 — XSS Scanner Ultimate
 
 ![Python 2](https://img.shields.io/badge/Python-2.7-yellow?logo=python)
 ![Status](https://img.shields.io/badge/Status-Community%20Tool-orange)
@@ -61,7 +61,7 @@ pip2 install -r requirements.txt
 python2 MS17.py
 ```
 
-Se preferisci lanciare comandi non interattivi (se lo script lo supporta), un esempio generico potrebbe essere:
+Puoi lanciare comandi non interattivi, un esempio generico potrebbe essere:
 ```bash
 python2 MS17.py --target "https://vittima.local/page.php?id=1" --payloads payloads.txt --methods GET POST --threads 8 --timeout 10 --insecure
 ```
@@ -106,8 +106,6 @@ python2 MS17.py --target "https://vittima.local/page.php?id=1" --payloads payloa
 
 ## 🩺 Note tecniche e limitazioni
 - Il codice è stato aggiornato per aggiungere logging e un flag per SSL (`--insecure`), ma alcune modifiche (es. conversione globale di `print` in `logging`) possono essere sensibili per l'interfaccia menu-driven tipica di Python2. Se noti comportamenti strani nell'output, segnalalo.  
-- Alcune librerie recenti non supportano più Python2: quando aggiorni dipendenze, assicurati di usare versioni compatibili.  
-- Se preferisci, posso fornire una branch / patch che converte lo script a Python 3 in modo sicuro.
 
 ---
 
@@ -121,7 +119,6 @@ Questo strumento è destinato esclusivamente ad uso etico: **penetration testing
 - `requirements.txt` — dipendenze compatibili Python2  
 - `README.md` — questo file  
 - `LICENSE` — MIT (opzionale)  
-- `CONTRIBUTING.md` — linee guida per contribuire  
 
 ---
 
@@ -134,5 +131,3 @@ Contribuzioni e PR sono benvenute. Se mandi una PR, includi sempre una descrizio
 Apri una **Issue** su GitHub con dettagli, log e passi per riprodurre. Se vuoi posso aiutarti a creare una pagina di test locale per validare rapidamente il flusso di scansione.
 
 ---
-
-> Se vuoi che scriva subito anche il `requirements.txt` compatibile per Python2, il `LICENSE` (MIT) e il `CONTRIBUTING.md`, dimmelo e li creo nella cartella del progetto così puoi scaricarli tutti insieme.
