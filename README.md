@@ -44,8 +44,8 @@ urllib3==1.24.3
 
 ## 🛠️ Installazione veloce
 1. Posiziona `MS17.py` nella directory del progetto.  
-2. Crea e attiva un virtualenv Python2 (consigliato) oppure usa il tuo interpreter Python2 di sistema.  
-3. Installa le dipendenze per Python2:
+2. Crea e attiva un virtualenv Python (consigliato) oppure usa il tuo interpreter Python di sistema.  
+3. Installa le dipendenze per Python:
 ```bash
 pip install -r requirements.txt
 ```
