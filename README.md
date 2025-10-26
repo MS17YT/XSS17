@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![Bug Bounty](https://img.shields.io/badge/Use-Bug%20Bounty%20%2F%20Pentest-red)
 
-> **XSS17** è uno scanner XSS orientato al bug‑bounty, scritto in **Python 2**. Ideale per penetration tester e bug hunter che vogliono un tool rapido, menu‑driven e con supporto Selenium per verifiche dinamiche.
+> **XSS17** è uno scanner XSS orientato al bug‑bounty, scritto in **Python**. Ideale per penetration tester e bug hunter che vogliono un tool rapido, menu‑driven e con supporto Selenium per verifiche dinamiche.
 
 ---
 
