@@ -126,8 +126,3 @@ Questo strumento è destinato esclusivamente ad uso etico: **penetration testing
 Contribuzioni e PR sono benvenute. Se mandi una PR, includi sempre una descrizione e un caso di test replicabile (target di prova o snippet).
 
 ---
-
-## 📬 Contatti / Segnala un bug
-Apri una **Issue** su GitHub con dettagli, log e passi per riprodurre. Se vuoi posso aiutarti a creare una pagina di test locale per validare rapidamente il flusso di scansione.
-
----
