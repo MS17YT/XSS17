@@ -58,12 +58,12 @@ pip2 install -r requirements.txt
 ## ▶️ Uso base
 > Esempio: avvia lo script in modalità interattiva (default menu)
 ```bash
-python2 MS17.py
+python2 XSS17.py
 ```
 
 Puoi lanciare comandi non interattivi, un esempio generico potrebbe essere:
 ```bash
-python2 MS17.py --target "https://vittima.local/page.php?id=1" --payloads payloads.txt --methods GET POST --threads 8 --timeout 10 --insecure
+python2 XSS17.py --target "https://vittima.local/page.php?id=1" --payloads payloads.txt --methods GET POST --threads 8 --timeout 10 --insecure
 ```
 > Nota: `--insecure` (se presente) disabilita la verifica SSL. Usalo solo per test autorizzati.
 
@@ -115,7 +115,7 @@ Questo strumento è destinato esclusivamente ad uso etico: **penetration testing
 ---
 
 ## 🧩 File inclusi in questa repository
-- `MS17.py` — script principale (Python 2)  
+- `XSS17.py` — script principale (Python 2)  
 - `requirements.txt` — dipendenze compatibili Python2  
 - `README.md` — questo file  
 - `LICENSE` — MIT (opzionale)  
