@@ -1,6 +1,6 @@
 # MS17 — XSS Scanner Ultimate
 
-![Python 2](https://img.shields.io/badge/Python-2.7-yellow?logo=python)
+![Python](https://img.shields.io/badge/Python-2.7-yellow?logo=python)
 ![Status](https://img.shields.io/badge/Status-Community%20Tool-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![Bug Bounty](https://img.shields.io/badge/Use-Bug%20Bounty%20%2F%20Pentest-red)
@@ -9,16 +9,16 @@
 
 ---
 
-## ⚡ Requisiti (IMPORTANTE: **Python 2.7**)
-Il tool è stato scritto per **Python 2.7** — **non usarlo con Python 3** senza aver prima adattato il codice.  
-Installare dipendenze (usando pip per Python2, es. `pip2` o un virtualenv Python2):
+## ⚡ Requisiti (IMPORTANTE: **Python**)
+Il tool è stato scritto per **Python** — **non usarlo con Python 3** senza aver prima adattato il codice.  
+Installare dipendenze (usando pip per Python, es. `pip` o un virtualenv Python):
 ```bash
-# crea un virtualenv Python2 (se virtualenv è installato)
-virtualenv -p /usr/bin/python2.7 venv2
+# crea un virtualenv Python (se virtualenv è installato)
+virtualenv -p /usr/bin/python venv
 source venv2/bin/activate
 
-# oppure usa pip2 diretto
-pip2 install -r requirements.txt
+# oppure usa pip diretto
+pip install -r requirements.txt
 ```
 
 Esempio `requirements.txt` (compatibile Python2):
@@ -48,7 +48,7 @@ urllib3==1.24.3
 2. Crea e attiva un virtualenv Python2 (consigliato) oppure usa il tuo interpreter Python2 di sistema.  
 3. Installa le dipendenze per Python2:
 ```bash
-pip2 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 4. Assicurati di avere Chrome/Firefox e relativo driver nel PATH per usare Selenium (Chromedriver / geckodriver compatibili con la versione del browser).
@@ -58,12 +58,12 @@ pip2 install -r requirements.txt
 ## ▶️ Uso base
 > Esempio: avvia lo script in modalità interattiva (default menu)
 ```bash
-python2 XSS17.py
+python XSS17.py
 ```
 
 Puoi lanciare comandi non interattivi, un esempio generico potrebbe essere:
 ```bash
-python2 XSS17.py --target "https://vittima.local/page.php?id=1" --payloads payloads.txt --methods GET POST --threads 8 --timeout 10 --insecure
+python XSS17.py --target "https://vittima.local/page.php?id=1" --payloads payloads.txt --methods GET POST --threads 8 --timeout 10 --insecure
 ```
 > Nota: `--insecure` (se presente) disabilita la verifica SSL. Usalo solo per test autorizzati.
 
