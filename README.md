@@ -28,7 +28,6 @@ colorama==0.3.9
 selenium==3.141.0
 urllib3==1.24.3
 ```
-> Nota: usa versioni compatibili con Python2. Alcune versioni più recenti delle librerie non supportano più Python2.
 
 
 ---
